@@ -23,10 +23,10 @@
 
 // NEW NAV DOWN BELOW
 
-import React from 'react';
+import React from "react";
 
-import { NavbarContainer, Navbar, Nav } from './Navbar.style';
-import Scroll from 'react-scroll';
+import { NavbarContainer, Navbar, Nav } from "./Navbar.style";
+import Scroll from "react-scroll";
 
 const NavbarDefault = () => {
   const ScrollLink = Scroll.Link;
@@ -51,7 +51,7 @@ const NavbarDefault = () => {
             </ScrollLink>
             <ScrollLink to="city" spy={true} smooth={true} duration={1000}>
               <Nav.Item>
-                <button>Águas de Lindóia</button>
+                <button>Bairro do Limão</button>
                 <span className="bar">|</span>
               </Nav.Item>
             </ScrollLink>

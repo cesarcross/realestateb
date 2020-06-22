@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CityContainer = styled.div`
   /* border: 2px solid green; */
   /* background: #1b6ca8; */
-  background: #85d7ea;
+  background: #184d47;
   padding-top: 30px;
   padding-bottom: 30px;
 `;

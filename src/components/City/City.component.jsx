@@ -1,5 +1,5 @@
-import React from 'react';
-import { Element } from 'react-scroll';
+import React from "react";
+import { Element } from "react-scroll";
 
 import {
   CityContainer,
@@ -8,54 +8,45 @@ import {
   Text,
   Picture,
   MaxWidth,
-} from './City.style';
+} from "./City.style";
 
-import city from '../../assets/images/city.jpg';
-import city1 from '../../assets/images/city1.png';
-import city2 from '../../assets/images/city2.jpg';
-import city3 from '../../assets/images/city3.jpg';
-import city4 from '../../assets/images/city4.jpeg';
+import igreja from "../../assets/images/igreja.jpg";
 
 export const City = () => (
   <Element id="city" name="city">
     <CityContainer>
       <MaxWidth>
         <Description>
-          <Title>Conheça Águas de Lindóia</Title>
+          <Title>Bairro do Limão</Title>
           <Text>
-            Águas de Lindóia é um dos onze municípios paulistas considerados
-            estâncias hidrominerais. Localizada a 180km de São Paulo, é uma
-            cidade tranquila, repleta de áreas verdes e com exuberantes
-            paisagens que podem ser avistadas das trilhas e montanhas mais
-            próximas.
+            Bairro do Limão é um bairro do distrito do Limão situado na Zona
+            Norte do município de São Paulo, no estado de São Paulo, no Brasil.
+            O mesmo serve de sede para importantes empresas do estado, assim
+            como uma das potências atuais do carnaval Paulistano, a escola de
+            samba Mocidade Alegre.
           </Text>
           <Text>
-            O charmoso centro da cidade conta com a praça Adhemar de Barros,
-            onde feiras e jardins contornam o famoso lago. Próximo dali, a
-            avenida principal contém comércios locais e ótimas opções de
-            restaurante. O acesso ao Balneário também é fácil, a cerca de 10
-            minutos de carro. Para quem deseja qualidade de vida, Águas de
-            Lindóia é uma excelente opção.
+            O Limão conta com uma boa infraestrutura de transportes, possuindo
+            amplas avenidas, das quais se destacam a Avenida Professor Celestino
+            Bourrol, a Avenida Engenheiro Caetano Álvares, a Avenida Nossa
+            Senhora do Ó e a Avenida Deputado Emílio Carlos. Há também
+            indústrias, um grande número de residências, escolas públicas e
+            particulares e variados serviços, tendo acesso bastante facilitado
+            pela Via Professor Simão Faiguenboim.
           </Text>
-          <Text>Cidades próximas: Monte Sião, Lindóia, Serra Negra</Text>
           <Text>
-            Conheça mais através do site: https://aguasdelindoia.com.br/
+            É vizinho de importantes bairros, como a Lapa, a Barra Funda, a Água
+            Branca, a Freguesia do Ó, Pompéia e Casa Verde.
+          </Text>
+          <Text>
+            O bairro é sede de importantes empresas, tais como o jornal O Estado
+            de S. Paulo, o jornal esportivo Lance!, o hipermercado Carrefour, o
+            Colégio Padre Moye, Rádio Atual e a Cafeteria Pé de Café conhecida
+            por seu ambiente agradável e eventos culturais.
           </Text>
         </Description>
         <Picture>
-          <img src={city} alt=""></img>
-        </Picture>
-        <Picture>
-          <img src={city3} alt=""></img>
-        </Picture>
-        <Picture>
-          <img src={city4} alt=""></img>
-        </Picture>
-        <Picture>
-          <img src={city1} alt=""></img>
-        </Picture>
-        <Picture>
-          <img src={city2} alt=""></img>
+          <img src={igreja} alt=""></img>
         </Picture>
       </MaxWidth>
     </CityContainer>

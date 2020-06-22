@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContactContainer = styled.div`
   margin: 50px auto;
@@ -66,7 +66,7 @@ export const FormContainer = styled.div`
   input:last-of-type {
     border: none;
     color: #fff;
-    background: #436f8a;
+    background: #184d47;
     width: 40%;
     margin: 5px auto;
     height: 40px;
@@ -74,7 +74,7 @@ export const FormContainer = styled.div`
     font-size: 1rem;
 
     &:hover {
-      background: #709fb0;
+      background: #2c6860;
       transition: all 0.3s ease;
     }
     @media screen and (min-width: 768px) {

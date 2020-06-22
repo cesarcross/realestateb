@@ -1,28 +1,34 @@
-import React from 'react';
-import { Element } from 'react-scroll';
+import React from "react";
+import { Element } from "react-scroll";
 
 import {
   DescriptionContainer,
   Item,
-  RuleIcon,
-  BedIcon,
-  ShowerIcon,
-  CarIcon,
-  BuildingIcon,
-  CouchIcon,
-  MountainIcon,
-  MapIcon,
-  PetIcon,
+  // RuleIcon,
+  // BedIcon,
+  // ShowerIcon,
+  // CarIcon,
+  // BuildingIcon,
+  // CouchIcon,
+  // MountainIcon,
+  // MapIcon,
+  // PetIcon,
   PriceText,
   Price,
-} from './Description.style';
+} from "./Description.style";
 
 export const Description = () => (
   <Element id="descricao" name="descricao">
     <DescriptionContainer>
       <Item>
         <ul>
-          <li>
+          <p>500 m²</p>
+          <p>3 salas comerciais</p>
+          <p>5 banheiros</p>
+          <p>2 galpões</p>
+          <p>8 vagas</p>
+
+          {/* <li>
             <RuleIcon />
             <p>90 m²</p>
           </li>
@@ -61,11 +67,11 @@ export const Description = () => (
           <li>
             <MapIcon />
             <p>Excelente localização</p>
-          </li>
+          </li> */}
         </ul>
       </Item>
       <PriceText>Valor do Imóvel</PriceText>
-      <Price>R$ 370.000</Price>
+      <Price>R$ 2.000.000</Price>
     </DescriptionContainer>
   </Element>
 );
