@@ -24,8 +24,8 @@ export const Description = () => (
         <ul>
           <p>500 m²</p>
           <p>3 salas comerciais</p>
-          <p>5 banheiros</p>
-          <p>2 galpões</p>
+          <p>2 salões (1 com 2 mezaninos)</p>
+          <p>7 banheiros</p>
           <p>8 vagas</p>
 
           {/* <li>
