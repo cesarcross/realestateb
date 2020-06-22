@@ -13,8 +13,8 @@
 // `;
 
 // NEW NAV DOWN BELOW
-import styled from 'styled-components';
-import { Nav as NavItem, Navbar as NavbarBootstrap } from 'react-bootstrap';
+import styled from "styled-components";
+import { Nav as NavItem, Navbar as NavbarBootstrap } from "react-bootstrap";
 
 export const NavbarContainer = styled.div`
   max-width: 1300px;
@@ -28,10 +28,10 @@ export const Navbar = styled(NavbarBootstrap)`
 
   .navbar-toggler {
     margin-right: 10px;
-    border-color: #85d7ea;
+    border-color: #184d47;
 
     .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(133, 215, 234, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(29, 77, 71, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
   }
 
@@ -40,7 +40,7 @@ export const Navbar = styled(NavbarBootstrap)`
 `;
 
 export const Nav = styled(NavItem)`
-  background: #85d7ea;
+  background: #184d47;
   margin: 0 auto;
 
   button {

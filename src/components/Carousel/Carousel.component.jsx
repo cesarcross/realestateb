@@ -1,25 +1,14 @@
-import React from 'react';
-import Slider from 'react-slick';
-import { Element } from 'react-scroll';
+import React from "react";
+import Slider from "react-slick";
+import { Element } from "react-scroll";
 
-import {
-  CarouselContainer,
-  SliderContainer,
-  // CarouselSlider,
-  Item,
-  // TemporaryImage,
-} from './Carousel.style';
+import { CarouselContainer, SliderContainer, Item } from "./Carousel.style";
 
-import fachada from '../../assets/images/fachada.jpeg';
-import cozinha from '../../assets/images/cozinha.jpeg';
-import cozinha2 from '../../assets/images/cozinha2.jpeg';
-import piscina from '../../assets/images/piscina.jpeg';
-import quarto from '../../assets/images/quarto.jpeg';
-import sala from '../../assets/images/sala.jpeg';
-import sala2 from '../../assets/images/sala2.jpeg';
-import sala3 from '../../assets/images/sala3.jpeg';
-import salajantar from '../../assets/images/salajantar.jpeg';
-import vista from '../../assets/images/vista.jpeg';
+import firma from "../../assets/images/firma.jpeg";
+import firma2 from "../../assets/images/firma2.jpeg";
+import firma3 from "../../assets/images/firma3.jpeg";
+import firma4 from "../../assets/images/firma4.jpeg";
+import firma5 from "../../assets/images/firma5.jpeg";
 
 const Carousel = () => {
   const settings = {
@@ -34,40 +23,22 @@ const Carousel = () => {
   return (
     <Element id="fotos" name="fotos">
       <CarouselContainer>
-        {/* <TemporaryImage>
-          <img src={fachada} alt=""></img>
-        </TemporaryImage> */}
         <SliderContainer>
           <Slider {...settings}>
             <Item>
-              <img src={fachada} alt=""></img>
+              <img src={firma2} alt=""></img>
             </Item>
             <Item>
-              <img src={cozinha} alt=""></img>
+              <img src={firma} alt=""></img>
             </Item>
             <Item>
-              <img src={cozinha2} alt=""></img>
+              <img src={firma3} alt=""></img>
             </Item>
             <Item>
-              <img src={piscina} alt=""></img>
+              <img src={firma4} alt=""></img>
             </Item>
             <Item>
-              <img src={quarto} alt=""></img>
-            </Item>
-            <Item>
-              <img src={sala} alt=""></img>
-            </Item>
-            <Item>
-              <img src={sala2} alt=""></img>
-            </Item>
-            <Item>
-              <img src={sala3} alt=""></img>
-            </Item>
-            <Item>
-              <img src={salajantar} alt=""></img>
-            </Item>
-            <Item>
-              <img src={vista} alt=""></img>
+              <img src={firma5} alt=""></img>
             </Item>
           </Slider>
         </SliderContainer>
